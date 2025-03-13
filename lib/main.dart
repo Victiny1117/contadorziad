@@ -53,6 +53,17 @@ class _appContState extends State<appCont> {
  @override
  Widget build(BuildContext context) {
       return Scaffold(
+        appBar: AppBar(
+          title: Text(
+            "Contador Ziad",
+          style: TextStyle(
+            color:  Color.fromARGB(255, 221, 221, 221),
+            fontWeight: FontWeight.bold,
+          ),
+          ),
+          centerTitle: true,
+          backgroundColor: const Color.fromARGB(255, 19, 19, 19),
+        ),
        backgroundColor: Color.fromARGB(255, 29, 29, 29), 
         body: Stack(
           children: [
